@@ -49,8 +49,8 @@
         this.load.image('sun', 'https://damien-senechal.github.io/phaser/assets/sun.png');
         this.load.image('ground', 'https://damien-senechal.github.io/phaser/assets/ground.png');
         this.load.image('ground2', 'https://damien-senechal.github.io/phaser/assets/ground2.png');
-        this.load.image('car1', 'https://damien-senechal.github.io/phaser/assets/car3.png');
-        this.load.image('car12', 'https://damien-senechal.github.io/phaser/assets/car31.png');
+        this.load.image('car1', 'https://damien-senechal.github.io/phaser/assets/car41.png');
+        this.load.image('car12', 'https://damien-senechal.github.io/phaser/assets/car42.png');
         this.load.image('car13', 'https://damien-senechal.github.io/phaser/assets/car32.png');
         this.load.image('car2', 'https://damien-senechal.github.io/phaser/assets/car2.png');
 
@@ -235,10 +235,13 @@
         this.add.sprite(800, 345, 'road')
             .play('roadracing');
 
-        var spritecar1 = this.add.sprite(880, 650, 'road')
+        /*var spritecar1 = this.add.sprite(880, 650, 'road')
+            .play('carroad1');*/
+
+        var spritecar1 = this.add.sprite(860, 650, 'road')
             .play('carroad1');
 
-        spritecar1.setScale(2, 2);
+        spritecar1.setScale(1.5, 1.5);
 
         //var car1 = this.add.image(880, 650, 'car1');
         //car1.setScale(2, 2);
