@@ -38,6 +38,7 @@
         this.load.image('bluebar', 'https://labs.phaser.io/assets/sprites/bluebar.png');
         this.load.image('sun', 'https://labs.phaser.io/assets/sprites/yellow_ball.png');
         this.load.image('elephant', 'https://labs.phaser.io/assets/sprites/elephant.png');
+        this.load.image('road', 'https://damien-senechal.github.io/phaser/assets/road1.png');
         this.load.image('road1', 'https://damien-senechal.github.io/phaser/assets/road21.png');
         this.load.image('road2', 'https://damien-senechal.github.io/phaser/assets/road22.png');
         this.load.image('road3', 'https://damien-senechal.github.io/phaser/assets/road23.png');
@@ -104,7 +105,6 @@
         this.add.image(400, 400, 'sky');
         this.add.image(1200, 400, 'sky');
         //this.add.image(100, 600, 'treeleft');
-        this.add.image(300, 600, 'road1');
         this.add.image(1500, 200, 'elephant');
         this.add.image(300, 600, 'elephant');
         var elephant = this.add.image(100, 200, 'elephant');
@@ -188,7 +188,7 @@
 
 
 
-        treeleft2.setScale(.9, .9)
+        /*treeleft2.setScale(.9, .9)
         treeleft3.setScale(.8, .8)
         treeleft4.setScale(.7, .7)
         treeleft5.setScale(.6, .6)
@@ -206,14 +206,10 @@
         treeright7.setScale(.4, .4)
         treeright8.setScale(.3, .3)
         treeright9.setScale(.2, .2)
-        treeright10.setScale(.1, .1)
+        treeright10.setScale(.1, .1)*/
 
 
-
-
-
-
-        this.add.sprite(800, 345, 'road1')
+        this.add.sprite(800, 345, 'road')
             .play('roadracing');
 
         var particles = this.add.particles('blue');
