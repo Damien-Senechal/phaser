@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+</head>
+<body>
+
+<script>
+    var config = {
+        type: Phaser.AUTO,
+        width: 1600,
+        height: 800,
+        physics: {
+            default: 'arcade',
+            arcade: {
+                gravity: { y: 200 }
+            }
+        },
+        scene: {
+            preload: preload,
+            create: create
+        }
+    };
+
+    var game = new Phaser.Game(config);
+
+
+    function preload ()
+    {
+        //this.load.setBaseURL('http://labs.phaser.io');
+
+        this.load.image('sky', 'http://labs.phaser.io/assets/skies/sunset.png');
+        this.load.image('logo', 'http://labs.phaser.io/assets/sprites/orange-cat1.png');
+        this.load.image('red', 'http://labs.phaser.io/assets/particles/cloud.png');
+        this.load.image('blue', 'https://labs.phaser.io/assets/particles/muzzleflash2.png');
+        this.load.image('treeleft', 'http://labs.phaser.io/assets/sprites/palm-tree-left.png');
+        this.load.image('treeright', 'http://labs.phaser.io/assets/sprites/palm-tree-right.png');
+        this.load.image('bluebar', 'https://labs.phaser.io/assets/sprites/bluebar.png');
+        this.load.image('sun', 'https://labs.phaser.io/assets/sprites/yellow_ball.png');
+        this.load.image('elephant', 'https://labs.phaser.io/assets/sprites/elephant.png');
+    }
+
+    function create ()
+    {
+        //this.physics.world.setBounds( 0, 0, full-width, full-height );
+
+        var text = this.add.text(650, 720, 'Garfield Sunset', { fontFamily: 'Impact' });
+        text.setScale(3, 3);
+        this.add.image(400, 400, 'sky');
+        this.add.image(1200, 400, 'sky');
+        this.add.image(100, 600, 'treeleft');
+        this.add.image(1500, 200, 'elephant');
+        var elephant = this.add.image(100, 200, 'elephant');
+        elephant.setScale(-1, 1);
+
+        var sun = this.add.image(800, 600, 'sun');
+        sun.setScale(10, 10);
+
+        /*this.add.image(0, 700, 'bluebar');
+        this.add.image(100, 700, 'bluebar');
+        this.add.image(200, 700, 'bluebar');
+        this.add.image(300, 700, 'bluebar');
+        this.add.image(400, 700, 'bluebar');
+        this.add.image(500, 700, 'bluebar');
+        this.add.image(600, 700, 'bluebar');
+        this.add.image(700, 700, 'bluebar');
+        this.add.image(800, 700, 'bluebar');
+        this.add.image(900, 700, 'bluebar');
+        this.add.image(1000, 700, 'bluebar');
+        this.add.image(1100, 700, 'bluebar');
+        this.add.image(1200, 700, 'bluebar');
+        this.add.image(1300, 700, 'bluebar');
+        this.add.image(1400, 700, 'bluebar');
+        this.add.image(1500, 700, 'bluebar');
+        this.add.image(1600, 700, 'bluebar');
+
+
+        this.add.image(200, 690, 'bluebar');
+        this.add.image(300, 690, 'bluebar');
+        this.add.image(400, 690, 'bluebar');
+        this.add.image(500, 690, 'bluebar');
+        this.add.image(600, 690, 'bluebar');
+        this.add.image(700, 690, 'bluebar');
+        this.add.image(800, 690, 'bluebar');
+        this.add.image(900, 690, 'bluebar');
+        this.add.image(1000, 690, 'bluebar');
+        this.add.image(1100, 690, 'bluebar');
+        this.add.image(1200, 690, 'bluebar');
+        this.add.image(1300, 690, 'bluebar');
+        this.add.image(1400, 690, 'bluebar');
+
+        this.add.image(300, 680, 'bluebar');
+        this.add.image(400, 680, 'bluebar');
+        this.add.image(500, 680, 'bluebar');
+        this.add.image(600, 680, 'bluebar');
+        this.add.image(700, 680, 'bluebar');
+        this.add.image(800, 680, 'bluebar');
+        this.add.image(900, 680, 'bluebar');
+        this.add.image(1000, 680, 'bluebar');
+        this.add.image(1100, 680, 'bluebar');
+        this.add.image(1200, 680, 'bluebar');
+        this.add.image(1300, 680, 'bluebar');
+
+        this.add.image(400, 670, 'bluebar');
+        this.add.image(500, 670, 'bluebar');
+        this.add.image(600, 670, 'bluebar');
+        this.add.image(700, 670, 'bluebar');
+        this.add.image(800, 670, 'bluebar');
+        this.add.image(900, 670, 'bluebar');
+        this.add.image(1000, 670, 'bluebar');
+        this.add.image(1100, 670, 'bluebar');
+        this.add.image(1200, 670, 'bluebar');
+
+        this.add.image(500, 660, 'bluebar');
+        this.add.image(600, 660, 'bluebar');
+        this.add.image(700, 660, 'bluebar');
+        this.add.image(800, 660, 'bluebar');
+        this.add.image(900, 660, 'bluebar');
+        this.add.image(1000, 660, 'bluebar');
+        this.add.image(1100, 660, 'bluebar');
+
+        this.add.image(600, 650, 'bluebar');
+        this.add.image(700, 650, 'bluebar');
+        this.add.image(800, 650, 'bluebar');
+        this.add.image(900, 650, 'bluebar');
+        this.add.image(1000, 650, 'bluebar');*/
+
+        this.add.image(700, 640, 'bluebar');
+        this.add.image(800, 640, 'bluebar');
+        this.add.image(900, 640, 'bluebar');
+
+        var treeleft2 = this.add.image(150, 600, 'treeleft');
+        var treeleft3 = this.add.image(200, 600, 'treeleft');
+        var treeleft4 = this.add.image(240, 600, 'treeleft');
+        var treeleft5 = this.add.image(275, 600, 'treeleft');
+        var treeleft6 = this.add.image(310, 600, 'treeleft');
+        var treeleft7 = this.add.image(340, 600, 'treeleft');
+        var treeleft8 = this.add.image(365, 600, 'treeleft');
+        var treeleft9 = this.add.image(390, 600, 'treeleft');
+        var treeleft10 = this.add.image(410, 600, 'treeleft');
+
+        this.add.image(1500, 600, 'treeright');
+        var treeright2 = this.add.image(1450, 600, 'treeright');
+        var treeright3 = this.add.image(1400, 600, 'treeright');
+        var treeright4 = this.add.image(1360, 600, 'treeright');
+        var treeright5 = this.add.image(1325, 600, 'treeright');
+        var treeright6 = this.add.image(1290, 600, 'treeright');
+        var treeright7 = this.add.image(1260, 600, 'treeright');
+        var treeright8 = this.add.image(1235, 600, 'treeright');
+        var treeright9 = this.add.image(1210, 600, 'treeright');
+        var treeright10 = this.add.image(1190, 600, 'treeright');
+
+        treeleft2.setScale(.9, .9)
+        treeleft3.setScale(.8, .8)
+        treeleft4.setScale(.7, .7)
+        treeleft5.setScale(.6, .6)
+        treeleft6.setScale(.5, .5)
+        treeleft7.setScale(.4, .4)
+        treeleft8.setScale(.3, .3)
+        treeleft9.setScale(.2, .2)
+        treeleft10.setScale(.1, .1)
+
+        treeright2.setScale(.9, .9)
+        treeright3.setScale(.8, .8)
+        treeright4.setScale(.7, .7)
+        treeright5.setScale(.6, .6)
+        treeright6.setScale(.5, .5)
+        treeright7.setScale(.4, .4)
+        treeright8.setScale(.3, .3)
+        treeright9.setScale(.2, .2)
+        treeright10.setScale(.1, .1)
+
+
+        var particles = this.add.particles('blue');
+
+        var emitter = particles.createEmitter({
+            speed: 1,
+            scale: { start: 0.5, end: 0 },
+            blendMode: 'ADD'
+        });
+
+        var logo = this.physics.add.image(400, 100, 'logo');
+        logo.setScale(3, 3);
+
+        logo.setVelocity(400, 400);
+        logo.setBounce(1, 1);
+        logo.setCollideWorldBounds(true);
+
+        emitter.startFollow(logo);
+
+
+    }
+    function shoot(){
+
+        if(nextShot>game.time.now){return;} // too early
+
+        this.add.image(800, 400, 'treeright');
+
+        nextShot = game.time.now + 1000; // wait at least 1 second (1000ms) to next shot
+
+    }
+    shoot();
+</script>
+
+</body>
+</html>
