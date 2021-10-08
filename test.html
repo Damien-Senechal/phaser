@@ -29,7 +29,7 @@
     {
         //this.load.setBaseURL('http://labs.phaser.io');
 
-        this.load.image('sky', 'http://labs.phaser.io/assets/skies/sunset.png');
+        /*this.load.image('sky', 'http://labs.phaser.io/assets/skies/sunset.png');
         this.load.image('logo', 'http://labs.phaser.io/assets/sprites/orange-cat1.png');
         this.load.image('red', 'http://labs.phaser.io/assets/particles/cloud.png');
         this.load.image('blue', 'https://labs.phaser.io/assets/particles/muzzleflash2.png');
@@ -37,11 +37,35 @@
         this.load.image('treeright', 'http://labs.phaser.io/assets/sprites/palm-tree-right.png');
         this.load.image('bluebar', 'https://labs.phaser.io/assets/sprites/bluebar.png');
         this.load.image('sun', 'https://labs.phaser.io/assets/sprites/yellow_ball.png');
-        this.load.image('elephant', 'https://labs.phaser.io/assets/sprites/elephant.png');
+        this.load.image('elephant', 'https://labs.phaser.io/assets/sprites/elephant.png');*/
+        this.load.image('road1', 'https://damien-senechal.github.io/phaser/assets/road1.png');
+        this.load.image('road2', 'https://damien-senechal.github.io/phaser/assets/road2.png');
+        this.load.image('road3', 'https://damien-senechal.github.io/phaser/assets/road3.png');
+        this.load.image('road4', 'https://damien-senechal.github.io/phaser/assets/road4.png');
+        this.load.image('road5', 'https://damien-senechal.github.io/phaser/assets/road5.png');
+        this.load.image('road6', 'https://damien-senechal.github.io/phaser/assets/road6.png');
     }
 
     function create ()
     {
+
+        this.anims.create({
+            key: 'roadracing',
+            frames: [
+                { key: 'road1' },
+                { key: 'road2' },
+                { key: 'road3' },
+                { key: 'road4' },
+                { key: 'road5' },
+                { key: 'road6', duration: 50 }
+            ],
+            frameRate: 8,
+            repeat: -1
+        });
+
+        this.add.sprite(400, 300, 'road1')
+            .play('roadracing');
+
         //this.physics.world.setBounds( 0, 0, full-width, full-height );
 
         var text = this.add.text(650, 720, 'Garfield Sunset', { fontFamily: 'Impact' });
@@ -49,7 +73,9 @@
         this.add.image(400, 400, 'sky');
         this.add.image(1200, 400, 'sky');
         this.add.image(100, 600, 'treeleft');
+        this.add.image(300, 600, 'road1');
         this.add.image(1500, 200, 'elephant');
+        this.add.image(300, 600, 'elephant');
         var elephant = this.add.image(100, 200, 'elephant');
         elephant.setScale(-1, 1);
 
@@ -190,16 +216,6 @@
 
 
     }
-    function shoot(){
-
-        if(nextShot>game.time.now){return;} // too early
-
-        this.add.image(800, 400, 'treeright');
-
-        nextShot = game.time.now + 1000; // wait at least 1 second (1000ms) to next shot
-
-    }
-    shoot();
 </script>
 
 </body>
