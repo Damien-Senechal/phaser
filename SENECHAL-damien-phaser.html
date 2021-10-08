@@ -53,6 +53,8 @@
         this.load.image('car12', 'https://damien-senechal.github.io/phaser/assets/car42.png');
         this.load.image('car13', 'https://damien-senechal.github.io/phaser/assets/car32.png');
         this.load.image('car2', 'https://damien-senechal.github.io/phaser/assets/car2.png');
+        this.load.image('truck1', 'https://damien-senechal.github.io/phaser/assets/truck1.png');
+        this.load.image('truck2', 'https://damien-senechal.github.io/phaser/assets/truck2.png');
 
 
         /*this.load.image('sky', 'https://damien-senechal.github.io/phaser/assets/sunset.png');
@@ -90,6 +92,18 @@
                 { key: 'car1' },
                 { key: 'car12' },
                 { key: 'car1', duration: 50 }
+            ],
+            frameRate: 8,
+            repeat: -1
+        });
+
+        this.anims.create({
+            key: 'carroad2',
+            frames: [
+                { key: 'truck2' },
+                { key: 'truck1' },
+                { key: 'truck1' },
+                { key: 'truck1', duration: 50 }
             ],
             frameRate: 8,
             repeat: -1
@@ -238,10 +252,14 @@
         /*var spritecar1 = this.add.sprite(880, 650, 'road')
             .play('carroad1');*/
 
-        var spritecar1 = this.add.sprite(860, 650, 'road')
+        var spritecar1 = this.add.sprite(880, 667, 'car1')
             .play('carroad1');
 
-        spritecar1.setScale(1.5, 1.5);
+        var spritecar2 = this.add.sprite(750, 620, 'truck1')
+            .play('carroad2');
+
+        spritecar1.setScale(2, 2);
+        spritecar2.setScale(-1, 1);
 
         //var car1 = this.add.image(880, 650, 'car1');
         //car1.setScale(2, 2);
