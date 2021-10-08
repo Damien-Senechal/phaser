@@ -49,7 +49,7 @@
         this.load.image('sun', 'https://damien-senechal.github.io/phaser/assets/sun.png');
         this.load.image('ground', 'https://damien-senechal.github.io/phaser/assets/ground.png');
         this.load.image('ground2', 'https://damien-senechal.github.io/phaser/assets/ground2.png');
-        this.load.image('car1', 'https://damien-senechal.github.io/phaser/assets/car1.png');
+        this.load.image('car1', 'https://damien-senechal.github.io/phaser/assets/car3.png');
         this.load.image('car2', 'https://damien-senechal.github.io/phaser/assets/car2.png');
 
 
@@ -76,6 +76,16 @@
                 { key: 'road4' },
                 { key: 'road5' },
                 { key: 'road6', duration: 50 }
+            ],
+            frameRate: 8,
+            repeat: -1
+        });
+
+        this.anims.create({
+            key: 'carroad1',
+            frames: [
+                { key: 'car1' },
+                { key: 'car12', duration: 50 }
             ],
             frameRate: 8,
             repeat: -1
@@ -221,7 +231,7 @@
         this.add.sprite(800, 345, 'road')
             .play('roadracing');
 
-        var car1 = this.add.image(850, 650, 'car1');
+        var car1 = this.add.image(880, 650, 'car1');
         car1.setScale(2, 2);
 
         var particles = this.add.particles('blue');
