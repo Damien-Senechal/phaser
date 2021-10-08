@@ -38,12 +38,13 @@
         this.load.image('bluebar', 'https://labs.phaser.io/assets/sprites/bluebar.png');
         this.load.image('sun', 'https://labs.phaser.io/assets/sprites/yellow_ball.png');
         this.load.image('elephant', 'https://labs.phaser.io/assets/sprites/elephant.png');
-        this.load.image('road1', 'https://damien-senechal.github.io/phaser/assets/road21.png');
+        this.load.image('road1', 'https://damien-senechal.github.io/phaser/assets/road1.png');
         this.load.image('road2', 'https://damien-senechal.github.io/phaser/assets/road22.png');
         this.load.image('road3', 'https://damien-senechal.github.io/phaser/assets/road23.png');
         this.load.image('road4', 'https://damien-senechal.github.io/phaser/assets/road24.png');
         this.load.image('road5', 'https://damien-senechal.github.io/phaser/assets/road25.png');
         this.load.image('road6', 'https://damien-senechal.github.io/phaser/assets/road26.png');
+        this.load.image('black', 'https://damien-senechal.github.io/phaser/assets/black.png');
 
         /*this.load.image('sky', 'https://damien-senechal.github.io/phaser/assets/sunset.png');
         this.load.image('logo', 'https://damien-senechal.github.io/phaser/assets/orange-cat1.png');
@@ -73,7 +74,28 @@
             repeat: -1
         });
 
+        var treeleft2 = this.add.image(150, 600, 'treeleft');
+        var treeleft3 = this.add.image(200, 600, 'treeleft');
+        var treeleft4 = this.add.image(240, 600, 'treeleft');
+        var treeleft5 = this.add.image(275, 600, 'treeleft');
+        var treeleft6 = this.add.image(310, 600, 'treeleft');
+        var treeleft7 = this.add.image(340, 600, 'treeleft');
+        var treeleft8 = this.add.image(365, 600, 'treeleft');
+        var treeleft9 = this.add.image(390, 600, 'treeleft');
+        var treeleft10 = this.add.image(410, 600, 'treeleft');
 
+        //this.add.image(1500, 600, 'treeright');
+        var treeright2 = this.add.image(1450, 600, 'treeright');
+        var treeright3 = this.add.image(1400, 600, 'treeright');
+        var treeright4 = this.add.image(1360, 600, 'treeright');
+        var treeright5 = this.add.image(1325, 600, 'treeright');
+        var treeright6 = this.add.image(1290, 600, 'treeright');
+        var treeright7 = this.add.image(1260, 600, 'treeright');
+        var treeright8 = this.add.image(1235, 600, 'treeright');
+        var treeright9 = this.add.image(1210, 600, 'treeright');
+        var treeright10 = this.add.image(1190, 600, 'treeright');
+
+        this.add.image(0, 0, 'black');
 
         //this.physics.world.setBounds( 0, 0, full-width, full-height );
 
@@ -81,7 +103,7 @@
         text.setScale(3, 3);
         this.add.image(400, 400, 'sky');
         this.add.image(1200, 400, 'sky');
-        this.add.image(100, 600, 'treeleft');
+        //this.add.image(100, 600, 'treeleft');
         this.add.image(300, 600, 'road1');
         this.add.image(1500, 200, 'elephant');
         this.add.image(300, 600, 'elephant');
@@ -164,26 +186,7 @@
         this.add.image(800, 640, 'bluebar');
         this.add.image(900, 640, 'bluebar');
 
-        var treeleft2 = this.add.image(150, 600, 'treeleft');
-        var treeleft3 = this.add.image(200, 600, 'treeleft');
-        var treeleft4 = this.add.image(240, 600, 'treeleft');
-        var treeleft5 = this.add.image(275, 600, 'treeleft');
-        var treeleft6 = this.add.image(310, 600, 'treeleft');
-        var treeleft7 = this.add.image(340, 600, 'treeleft');
-        var treeleft8 = this.add.image(365, 600, 'treeleft');
-        var treeleft9 = this.add.image(390, 600, 'treeleft');
-        var treeleft10 = this.add.image(410, 600, 'treeleft');
 
-        this.add.image(1500, 600, 'treeright');
-        var treeright2 = this.add.image(1450, 600, 'treeright');
-        var treeright3 = this.add.image(1400, 600, 'treeright');
-        var treeright4 = this.add.image(1360, 600, 'treeright');
-        var treeright5 = this.add.image(1325, 600, 'treeright');
-        var treeright6 = this.add.image(1290, 600, 'treeright');
-        var treeright7 = this.add.image(1260, 600, 'treeright');
-        var treeright8 = this.add.image(1235, 600, 'treeright');
-        var treeright9 = this.add.image(1210, 600, 'treeright');
-        var treeright10 = this.add.image(1190, 600, 'treeright');
 
         treeleft2.setScale(.9, .9)
         treeleft3.setScale(.8, .8)
