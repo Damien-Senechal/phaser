@@ -47,6 +47,8 @@
         this.load.image('road6', 'https://damien-senechal.github.io/phaser/assets/road26.png');
         this.load.image('black', 'https://damien-senechal.github.io/phaser/assets/black.png');
         this.load.image('sun', 'https://damien-senechal.github.io/phaser/assets/sun.png');
+        this.load.image('ground', 'https://damien-senechal.github.io/phaser/assets/ground.png');
+        this.load.image('ground2', 'https://damien-senechal.github.io/phaser/assets/ground2.png');
 
         /*this.load.image('sky', 'https://damien-senechal.github.io/phaser/assets/sunset.png');
         this.load.image('logo', 'https://damien-senechal.github.io/phaser/assets/orange-cat1.png');
@@ -208,6 +210,9 @@
         treeright8.setScale(.3, .3)
         treeright9.setScale(.2, .2)
         treeright10.setScale(.1, .1)*/
+
+        this.add.image(800, 289, 'ground');
+        this.add.image(800, 300, 'ground2');
 
 
         this.add.sprite(800, 345, 'road')
