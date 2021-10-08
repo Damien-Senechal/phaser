@@ -29,7 +29,7 @@
     {
         //this.load.setBaseURL('http://labs.phaser.io');
 
-        /*this.load.image('sky', 'http://labs.phaser.io/assets/skies/sunset.png');
+        this.load.image('sky', 'http://labs.phaser.io/assets/skies/sunset.png');
         this.load.image('logo', 'http://labs.phaser.io/assets/sprites/orange-cat1.png');
         this.load.image('red', 'http://labs.phaser.io/assets/particles/cloud.png');
         this.load.image('blue', 'https://labs.phaser.io/assets/particles/muzzleflash2.png');
@@ -37,13 +37,23 @@
         this.load.image('treeright', 'http://labs.phaser.io/assets/sprites/palm-tree-right.png');
         this.load.image('bluebar', 'https://labs.phaser.io/assets/sprites/bluebar.png');
         this.load.image('sun', 'https://labs.phaser.io/assets/sprites/yellow_ball.png');
-        this.load.image('elephant', 'https://labs.phaser.io/assets/sprites/elephant.png');*/
+        this.load.image('elephant', 'https://labs.phaser.io/assets/sprites/elephant.png');
         this.load.image('road1', 'https://damien-senechal.github.io/phaser/assets/road1.png');
         this.load.image('road2', 'https://damien-senechal.github.io/phaser/assets/road2.png');
         this.load.image('road3', 'https://damien-senechal.github.io/phaser/assets/road3.png');
         this.load.image('road4', 'https://damien-senechal.github.io/phaser/assets/road4.png');
         this.load.image('road5', 'https://damien-senechal.github.io/phaser/assets/road5.png');
         this.load.image('road6', 'https://damien-senechal.github.io/phaser/assets/road6.png');
+
+        /*this.load.image('sky', 'https://damien-senechal.github.io/phaser/assets/sunset.png');
+        this.load.image('logo', 'https://damien-senechal.github.io/phaser/assets/orange-cat1.png');
+        this.load.image('red', 'https://damien-senechal.github.io/phaser/assets/cloud.png');
+        this.load.image('blue', 'https://damien-senechal.github.io/phaser/assets/muzzleflash2.png');
+        this.load.image('treeleft', 'https://damien-senechal.github.io/phaser/assets/palm-tree-left.png');
+        this.load.image('treeright', 'https://damien-senechal.github.io/phaser/assets/palm-tree-right.png');
+        this.load.image('bluebar', 'https://damien-senechal.github.io/phaser/assets/bluebar.png');
+        this.load.image('sun', 'https://damien-senechal.github.io/phaser/assets/yellow_ball.png');
+        this.load.image('elephant', 'https://damien-senechal.github.io/phaser/assets/elephant.png');*/
     }
 
     function create ()
@@ -63,8 +73,7 @@
             repeat: -1
         });
 
-        this.add.sprite(400, 300, 'road1')
-            .play('roadracing');
+
 
         //this.physics.world.setBounds( 0, 0, full-width, full-height );
 
@@ -196,6 +205,13 @@
         treeright9.setScale(.2, .2)
         treeright10.setScale(.1, .1)
 
+
+
+
+
+
+        this.add.sprite(800, 345, 'road1')
+            .play('roadracing');
 
         var particles = this.add.particles('blue');
 
