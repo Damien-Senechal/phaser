@@ -325,7 +325,7 @@ acquisition
 acquisitions
 acquit
 acquitter
-âcre
+acre
 acrobate
 acrobatie
 acrobatique
@@ -564,10 +564,10 @@ Afrique
 agacement
 agacer
 Agathe
-âge
-âge
-âgee
-âgees
+age
+age
+agee
+agees
 Agen
 agence
 agencement
@@ -576,8 +576,8 @@ agences
 agenda
 agent
 agents
-âges
-âges
+ages
+ages
 agglomerat
 agglomeration
 agglomerations
@@ -739,7 +739,7 @@ Albanais
 albanaise
 Albanaise
 Albanie
-albâtre
+albatre
 albatros
 Albert
 albertain
@@ -946,7 +946,7 @@ ambulance
 ambulancier
 ambulanciers
 ambulant
-âme
+ame
 amelioration
 ameliorations
 ameliore
@@ -980,7 +980,7 @@ americana
 americaniser
 Amerique
 amertume
-âmes
+ames
 amethyste
 ameublement
 ameublissement
@@ -1024,7 +1024,7 @@ ampere
 amphi
 amphibie
 amphibraque
-amphitheâtre
+amphitheatre
 amphitryon
 amphore
 ample
@@ -1100,7 +1100,7 @@ Andrei
 Andrieu
 androgeneses
 Andropov
-âne
+ane
 aneantir
 aneantissement
 anecdote
@@ -1109,7 +1109,7 @@ anecdotique ment
 anemie
 anemique
 anemone de mer
-ânerie
+anerie
 anesthesiant
 anesthesie
 anesthesier
@@ -1461,10 +1461,10 @@ appuye
 appuyee
 appuyer
 appuyes
-âpre
+apre
 apres
 apres-midi
-âprete
+aprete
 apte
 aptes
 aptitude
@@ -1854,7 +1854,7 @@ atomique
 atonie
 atout
 atouts
-âtre
+atre
 atroce
 atrocite
 atrophie
@@ -2224,7 +2224,7 @@ baccara
 bachelier
 bacheliers
 back
-bâcle
+bacle
 bacon
 bacterie
 bacterien
@@ -2239,7 +2239,7 @@ badigeonner
 Badinter
 baffe
 bafouiller
-bâfrer
+bafrer
 bagage
 bagages
 bagagiste
@@ -2260,8 +2260,8 @@ baigner
 baigner dans
 baignoire
 bail
-bâillement
-bâiller
+baillement
+bailler
 bailleur
 bailleurs
 bain
@@ -2295,7 +2295,7 @@ balayer
 balbutier
 balcon
 baldaquin
-Bâle
+Bale
 baleine
 baleze
 balise
@@ -2474,20 +2474,20 @@ bataille
 batailles
 bataillon
 bataillons
-bâtard
+batard
 Batavia
 bateau
 bateaux
 bath
-bâti
-bâtiment
-bâtiments
-bâtir
-bâtisse
-bâtisseur
-bâton
-bâtonnier
-bâtons
+bati
+batiment
+batiments
+batir
+batisse
+batisseur
+baton
+batonnier
+batons
 bats
 battage
 Battambang
@@ -2551,7 +2551,7 @@ beige
 beigne
 Bekaa
 bel
-bel âge
+bel age
 bel homme
 Belarus
 beler
@@ -2764,8 +2764,8 @@ blair
 blaireau
 Blaise
 Blake
-blâme
-blâmer
+blame
+blamer
 blanc
 blanc de chaux
 blanc d'œuf
@@ -3263,11 +3263,11 @@ cabine
 cabine telephonique
 cabinet
 cabinets
-câble
-câble
-câbles
-câbles
-câblot
+cable
+cable
+cables
+cables
+cablot
 caboche
 cabot
 caboter
@@ -3356,11 +3356,11 @@ caler
 calfeutrer
 Californie
 californienne
-câlin
-câline
-câlinement
-câliner
-câlinerie
+calin
+caline
+calinement
+caliner
+calinerie
 calleux
 callosite
 calme
@@ -3812,7 +3812,7 @@ chairs
 chaise
 chaises
 chaland
-châle
+chale
 chalet
 chaleur
 chaleureuse
@@ -3938,26 +3938,26 @@ chartres
 chartreuse
 chas
 chasse
-châsse
+chasse
 chasse
 chassent
 chasser
 chasseur
 chasseurs
-châssis
+chassis
 chaste
 chastete
 chat
-châtaigne
-châtaignier
-châtain
-château
-château fort
+chataigne
+chataignier
+chatain
+chateau
+chateau fort
 chateaubriand
-châteaux
-châtelet
-châtier
-châtiment
+chateaux
+chatelet
+chatier
+chatiment
 chatouiller
 chatoyer
 chats
@@ -5627,10 +5627,10 @@ crampe
 crampon
 cramponner
 cran
-crâne
-crâner
-crânerie
-crâneur
+crane
+craner
+cranerie
+craneur
 crapule
 craque
 craquer
@@ -5944,7 +5944,7 @@ de
 deale
 dealers
 Deauville
-debâcle
+debacle
 deballe!
 debander
 debarbouiller
@@ -6241,8 +6241,8 @@ degager
 degages
 degaine
 degarni
-degât
-degâts
+degat
+degats
 degauchir
 degauchissage
 degauchissement
@@ -7109,7 +7109,7 @@ discuter
 dise
 disent
 disette
-disgrâce
+disgrace
 Disney
 disons
 disparaissent
@@ -9096,9 +9096,9 @@ faces
 facetie
 facetieusement
 facettes
-fâche
-fâcher
-fâcheux
+fache
+facher
+facheux
 facial
 facile
 facilement
@@ -9553,7 +9553,7 @@ flamme
 flammes
 flanc
 flanelle
-flâner
+flaner
 flanquer
 flaque
 flash
@@ -9622,7 +9622,7 @@ foison
 foisonnement
 foisonner
 Fokker
-folâtre
+folatre
 folie
 folie douce
 folies
@@ -10048,9 +10048,9 @@ futurs
 fuyant
 Gabon
 Gabriel
-gâcher
-gâchette
-gâchis
+gacher
+gachette
+gachis
 gadget
 gadgets
 gadoue
@@ -10155,9 +10155,9 @@ gaspiller
 Gaston
 gastronomie
 gastronomique
-gâte
-gâteau
-gâter
+gate
+gateau
+gater
 GATT
 gauche
 gaucher
@@ -10392,7 +10392,7 @@ golfe
 gombo
 Gomez
 gomme
-gomme e mâcher
+gomme e macher
 gomme arabique
 gommer
 Goncourt
@@ -10441,8 +10441,8 @@ gouvernements
 gouverner
 gouverneur
 gouverneurs
-grâce
-grâces
+grace
+graces
 gracier
 gracieusete
 gracieux
@@ -10685,7 +10685,7 @@ habituellement
 habituelles
 habituels
 habitues
-hâbleur
+hableur
 Habre
 hache
 hacher
@@ -10699,10 +10699,10 @@ haine
 haineux
 haïr
 Haïti
-hâle
+hale
 haleine
 haler
-hâler
+haler
 haleter
 hall
 halle
@@ -10756,8 +10756,8 @@ hasard
 hasardeux
 hasards
 Hassan
-hâte
-hâter
+hate
+hater
 hausse
 hausser
 hausses
@@ -10774,7 +10774,7 @@ hauts
 havane
 havas
 have
-hâve
+have
 Havel
 havre
 havresac
@@ -11103,8 +11103,8 @@ ideologues
 idiot
 idiote
 idiotie
-idolâtrer
-idolâtrie
+idolatrer
+idolatrie
 ignare
 ignoble
 ignominie
@@ -11605,7 +11605,7 @@ inexpert
 inexpugnable
 infaillible
 infaisable
-infâme
+infame
 infamie
 infanterie
 infantile
@@ -12550,10 +12550,10 @@ lac
 lacerer
 lacet
 lacez
-lâche
-lâche
-lâcher
-lâchete
+lache
+lache
+lacher
+lachete
 laconique
 Lacoste
 Lacroix
@@ -13192,15 +13192,15 @@ Macao
 macaroni
 macedoine
 macerer
-mâcher
+macher
 machin
 machinal
 machinalement
 machination
 machine
 machines
-mâchoire
-mâchonner
+machoire
+machonner
 macintosh
 maçon
 maçonnerie
@@ -13324,7 +13324,7 @@ malappris
 malavise
 malchance
 maldonne
-mâle
+male
 malediction
 malencontreux
 malentendant
@@ -13596,7 +13596,7 @@ mastic
 mastiquer
 mastodonte
 masure
-mât
+mat
 match
 match final
 matches
@@ -14387,8 +14387,8 @@ mouvemente
 mouvements
 mouvoir
 moyen
-Moyen Âge
-moyenâgeux
+Moyen age
+moyenageux
 moyennant
 moyenne
 moyennes
@@ -15140,7 +15140,7 @@ operee
 operees
 operer
 operes
-opiniâtre
+opiniatre
 opinion
 opinions
 opiomane
@@ -15403,7 +15403,7 @@ Pakistan
 pal
 palace
 palais
-pâle
+pale
 paleographie
 paleontologie
 Palestine
@@ -15414,7 +15414,7 @@ palestiniens
 paletot
 palette
 palier
-pâlir
+palir
 palis
 palissade
 pallier
@@ -15473,7 +15473,7 @@ paprika
 papule
 papy
 paquebot
-pâques
+paques
 paquet
 paquets
 par
@@ -15716,9 +15716,9 @@ pastoureau
 patate
 patates
 patauger
-pâte
-pâte
-pâtee
+pate
+pate
+patee
 patelin
 pateliner
 patent
@@ -15728,7 +15728,7 @@ patere
 paternel
 paternelle
 paternite
-pâtes
+pates
 Pathe
 pathetique
 patiemment
@@ -15738,11 +15738,11 @@ patiente
 patienter
 patients
 patiner
-pâtir
-pâtisserie
+patir
+patisserie
 patois
 patoisant
-pâtre
+patre
 patriarche
 patrice
 Patricia
@@ -15765,7 +15765,7 @@ patronyme
 patrouille
 patte
 pattes
-pâturage
+paturage
 Pau
 Paul
 Paulhan
@@ -16371,9 +16371,9 @@ plate-forme
 plates
 Platini
 Platon
-plâtras
-plâtre
-plâtrer
+platras
+platre
+platrer
 plats
 plausible
 play
@@ -17749,7 +17749,7 @@ ralentie
 ralentir
 ralentissement
 ralentit
-râler
+raler
 rallie
 ralliement
 rallier
@@ -17791,8 +17791,8 @@ Raoul
 rapace
 rapatriement
 rapatries
-râpe
-râper
+rape
+raper
 rapetisser
 Raphaël
 rapide
@@ -17858,8 +17858,8 @@ rassurer
 rassures
 rate
 rate
-râteau
-râtelier
+rateau
+ratelier
 rater
 rates
 ratification
@@ -18347,9 +18347,9 @@ rejoui
 rejouir
 rejouissance
 rejouit
-relâche
-relâcher
-relâches
+relache
+relacher
+relaches
 relais
 relance
 relance
@@ -19588,7 +19588,7 @@ scenario
 scenarios
 scenariste
 scene
-scene de theâtre
+scene de theatre
 scenes
 scepticisme
 sceptique
@@ -20925,9 +20925,9 @@ tablier
 tabou
 tabous
 tache
-tâche
+tache
 tacher
-tâches
+taches
 tacite
 taciturne
 tact
@@ -21020,12 +21020,12 @@ tassa
 tasse
 tasse
 tasser
-tâter
-tâter de
+tater
+tater de
 Tati
 tatillon
-tâtonner
-tâtons
+tatonner
+tatons
 taulard
 taule
 taupe
@@ -21250,12 +21250,12 @@ thaïlandais
 thaïlandaise
 Thaïlande
 the
-theâtral
-theâtrale
-theâtralement
-theâtrales
-theâtre
-theâtres
+theatral
+theatrale
+theatralement
+theatrales
+theatre
+theatres
 theiere
 thematique
 thematiques
@@ -21776,11 +21776,11 @@ trochet
 trochile
 trois
 trois cents
-trois mâts
+trois mats
 trois quarts
 troisieme
 troisiemes
-trois-mâts
+trois-mats
 trolley
 trolleybus
 trombe
